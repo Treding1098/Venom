@@ -149,11 +149,11 @@ def add_user(message):
                 else:
                     response = "Failed to set approval expiry date. Please try again later."
             else:
-                response = "User already exists 🤦‍♂️."
-        else:
+                response = "𝑌𝐸 𝑃𝐸𝐻𝐿𝐸 𝑆𝐸 𝐻𝐸 𝑌𝐴𝐴𝑅 🤦‍♂️."
+        elsehttps://github.com/Treding1098/Moin.git
             response = "Please specify a user ID and the duration (e.g., 1hour, 2days, 3weeks, 4months) to add 😘."
     else:
-        response = "You have not purchased yet purchase now from:- @SIDIKI_MUSTAFA_47."
+        response = "𝑃𝐸𝐻𝐿𝐸 𝐵𝑈𝑌 𝐾𝑅 𝑁𝐴 :- @SIDIKI_MUSTAFA_47."
 
     bot.reply_to(message, response)
 
@@ -201,7 +201,7 @@ def clear_logs_command(message):
             with open(LOG_FILE, "r+") as file:
                 log_content = file.read()
                 if log_content.strip() == "":
-                    response = "Logs are already cleared. No data found ❌."
+                    response = "𝐿𝑂𝐺𝑆 𝐴𝑅𝐸 𝐶𝐿𝐸𝐴𝑅𝐸𝐷. 𝑁𝑂 𝐷𝐴𝑇𝐴 𝐹𝑂𝑈𝑁𝐷 ❌."
                 else:
                     file.truncate(0)
                     response = "Logs Cleared Successfully ✅"
@@ -320,7 +320,7 @@ def handle_bgmi(message):
         else:
             response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
-        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. DM TO BUY ACCESS:-  @SIDIKI_MUSTAFA_47")
+        response = ("🚫𝑈𝑁𝐴𝑈𝑇𝐻𝑂𝑅𝐼𝑍𝐸𝐷  𝐴𝐶𝐶𝐸𝑆𝑆! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. DM TO BUY ACCESS:-  @SIDIKI_MUSTAFA_47")
 
     bot.reply_to(message, response)
 
@@ -348,19 +348,19 @@ def show_command_logs(message):
 @bot.message_handler(commands=['help'])
 def show_help(message):
     help_text ='''🤖 Available commands:
-💥 /bgmi : Method For Bgmi Servers. 
-💥 /rules : Please Check Before Use !!.
-💥 /mylogs : To Check Your Recents Attacks.
-💥 /plan : Checkout Our Botnet Rates.
-💥 /myinfo : TO Check Your WHOLE INFO.
+💥 /bgmi : 𝐵𝐺𝑀𝐼 𝐾𝐼 𝑀𝐴𝑅𝑁𝐸 𝐾𝐸 𝐿𝐼𝐴. 
+💥 /rules : 𝑅𝑈𝐿𝐸𝑆 𝐷𝐸𝐾𝐻𝑁𝐸 𝐾𝐸 𝐿𝐼𝐴 !!.
+💥 /mylogs : 𝐴𝑃𝑁𝐸 𝐴𝑇𝑇𝐴𝐶𝐾 𝐷𝐸𝐾𝐻𝑁𝐸 𝐾𝐸 𝐿𝐼𝐴.
+💥 /plan : 𝑃𝐿𝐴𝑁 𝐷𝐸𝐾𝐻𝑁𝐸 𝐾𝐸 𝐿𝐼𝐴.
+💥 /myinfo : 𝐴𝑃𝑁𝐸 𝐵𝐴𝑅𝐸 𝑀𝐸 𝐽𝐴𝑁 𝑁𝐸 𝐾𝐸 𝐿𝐼𝐴.
 
-🤖 To See Admin Commands:
-💥 /admincmd : Shows All Admin Commands.
+🤖 𝑩𝑶𝑻 𝑲𝑬 𝑷𝑨𝑷𝑷𝑨 𝑲𝑬 𝑪𝑶𝑴𝑴𝑨𝑵𝑫𝑺 𝑫𝑬𝑲𝑯𝑵𝑬 𝑲𝑬 𝑳𝑰𝑨:
+💥 /admincmd : .𝑩𝑶𝑻 𝑲𝑬 𝑷𝑨𝑷𝑷𝑨 𝑲𝑬 𝑪𝑶𝑴𝑴𝑨𝑵𝑫𝑺 𝑫𝑬𝑲𝑯𝑵𝑬 𝑲𝑬 𝑳𝑰𝑨.
 
-Buy From :-  @SIDIKI_MUSTAFA_47
-Official Channel :- https://t.me/+rp1c3JA6JYQ4ZDdl
+𝐵𝑈𝑌 𝐹𝑅𝑂𝑀 :-  @SIDIKI_MUSTAFA_47
+Official Channel :- https://t.me/apunkailakahe
 '''
-    for handler in bot.message_handlers:
+        for handler in bot.message_handlers:
         if hasattr(handler, 'commands'):
             if message.text.startswith('/help'):
                 help_text += f"{handler.commands[0]}: {handler.doc}\n"
@@ -385,7 +385,7 @@ def welcome_rules(message):
 
 1. Dont Run Too Many Attacks !! Cause A Ban From Bot
 2. Dont Run 2 Attacks At Same Time Becz If U Then U Got Banned From Bot.
-3. MAKE SURE YOU JOINED https://t.me/+rp1c3JA6JYQ4ZDdl OTHERWISE NOT WORK
+3. MAKE SURE YOU JOINED  https://t.me/apunkailakahe OTHERVISE NOT WORK
 4. We Daily Checks The Logs So Follow these rules to avoid Ban!!'''
     bot.reply_to(message, response)
 
@@ -411,13 +411,13 @@ def welcome_plan(message):
     user_name = message.from_user.first_name
     response = f'''{user_name}, Admin Commands Are Here!!:
 
-💥 /add <userId> : Add a User.
-💥 /remove <userid> Remove a User.
-💥 /allusers : Authorised Users Lists.
-💥 /logs : All Users Logs.
-💥 /broadcast : Broadcast a Message.
-💥 /clearlogs : Clear The Logs File.
-💥 /clearusers : Clear The USERS File.
+💥 /add <userId> : 𝑁𝐴𝑌𝐸 𝐵𝐴𝑁𝐷𝐸 𝐾𝑂 𝐴𝐷𝐷 𝐾𝑅𝑁𝐸 𝐾𝐸 𝐿𝐼𝐴.
+💥 /remove <userid> 𝐺𝐴𝑁𝐷 𝑃𝐸 𝐿𝐴𝐴𝑇 𝑀𝐴𝐴𝑅𝑁𝐸 𝐾𝐸 𝐿𝐼𝐴.
+💥 /allusers : 𝑆𝐴𝐵 𝑈𝑆𝐸𝑅𝑆 𝐷𝐸𝐾𝐻𝑁𝐸 𝐾𝐸 𝐿𝐼𝐴.
+💥 /logs : 𝐴𝐿𝐿 𝑈𝑆𝐸𝑅 𝐿𝑂𝐺𝑆.
+💥 /broadcast : 𝑀𝐸𝑆𝑆𝐸𝐺𝐸 𝐵𝑅𝑂𝐴𝐷𝐶𝐴𝑆𝑇 𝐾𝑅𝑁𝐸 𝐾𝐸 𝐿𝐼𝐴.
+💥 /clearlogs : 𝐿𝑂𝐺𝑆 𝐹𝐼𝐿𝐸 𝐾𝑂 𝐶𝐿𝐸𝐴𝑅 𝐾𝑅𝑁𝐸 𝐾𝐸 𝐿𝐼𝐴.
+💥 /clearusers : 𝑆𝐴𝐵 𝑈𝑆𝐸𝑅𝑆 𝐾𝐸 𝐹𝐼𝐿𝐸 𝐷𝐸𝐿𝐸𝑇𝐸 𝐾𝑅𝑁𝐸 𝐾𝐸 𝐿𝐼𝐴.
 '''
     bot.reply_to(message, response)
 
@@ -439,7 +439,7 @@ def broadcast_message(message):
         else:
             response = "🤖 Please Provide A Message To Broadcast."
     else:
-        response = "Only Admin Can Run This Command 😡."
+        response = "𝑶𝑵𝑳𝒀 𝑩𝑶𝑻 𝑲𝑬 𝑷𝑨𝑷𝑷𝑨 𝑱𝑰 𝑪𝑨𝑵 𝑹𝑼𝑵 𝑻𝑯𝑰𝑺 😡."
 
     bot.reply_to(message, response)
 
